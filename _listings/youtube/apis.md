@@ -26,7 +26,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/youtube/search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/youtube/search-parameters.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
