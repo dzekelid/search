@@ -27,7 +27,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/amadeus/trains-schedule-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
