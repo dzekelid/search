@@ -27,7 +27,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/amadeus/hotels-search-circle-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/amadeus/points-of-interest-yapq-search-circle-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
