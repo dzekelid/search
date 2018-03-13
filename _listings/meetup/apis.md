@@ -28,7 +28,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/meetup/find-locations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/meetup/find-topic-categories-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
