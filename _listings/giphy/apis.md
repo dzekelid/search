@@ -27,7 +27,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/giphy/gifs-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/giphy/stickers-search-get.md
 x-common:
 - type: x-blog
   url: http://blog.giphy.com/
