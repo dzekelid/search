@@ -11,8 +11,8 @@ tags:
 - Stack Network
 - Search
 - Google APIs
-created: "2018-02-25"
-modified: "2018-02-25"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/google-custom-search/apis.yaml
 specificationVersion: "0.14"
 apis:
