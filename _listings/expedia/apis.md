@@ -32,7 +32,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/expedia/api-trips-tripid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/expedia/api-trips-tripid-updatetripnamedescription-post.md
 x-common:
 - type: x-base
   url: http://api.ean.com
