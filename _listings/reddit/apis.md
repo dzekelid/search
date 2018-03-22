@@ -32,7 +32,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/reddit/search-subreddits-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/reddit/subreddits-search-get.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
