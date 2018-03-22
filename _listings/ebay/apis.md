@@ -11,9 +11,9 @@ tags:
 - Partners
 - Commerce
 - Auction
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/ebay/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Ebay
@@ -26,7 +26,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/ebay/item-summary-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/item-summary-search-get.md
 x-common:
 - type: x-blog
   url: https://go.developer.ebay.com/dev-program-blog
