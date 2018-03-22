@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Search
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/google-custom-search/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/google-custom-search/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Custom Search JSON/Atom API
@@ -25,7 +25,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/google-custom-search/v1-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/google-custom-search/v1-get.md
 x-common:
 - type: x-blog
   url: https://customsearch.googleblog.com/
