@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/akamai/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/akamai/network-list-v1-network-lists-search-expression,listtype,extended,includedeprecated-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/akamai/network-list-v1-network-lists-search-expression,listtype,extended,includedeprecated-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
