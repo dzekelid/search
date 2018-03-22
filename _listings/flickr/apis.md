@@ -20,9 +20,9 @@ tags:
 - Imports
 - Images
 - Getting Started
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/flickr/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/flickr/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Flickr
@@ -35,7 +35,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/flickr/rest-method-flickr-photos-licenses-getinfo-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/flickr/rest-method-flickr-photos-licenses-getinfo-get.md
 x-common:
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
