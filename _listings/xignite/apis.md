@@ -36,16 +36,16 @@ tags:
 - Business
 - Bond Markets
 - Articles
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Xignite Money Markets
+- name: Xignite Interbanks
   description: Financial market data on-demand
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: ""
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
   tags: Search
   properties:
   - type: x-openapi-spec
