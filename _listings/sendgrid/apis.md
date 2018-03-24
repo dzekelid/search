@@ -35,7 +35,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/sendgrid/asm-groups-group-id-suppressions-search-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/sendgrid/contactdb-recipients-search-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
