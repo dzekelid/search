@@ -33,17 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/expedia/api-user-associateusertotrip-post.md
-- name: Expedia Update Trip Name and Description
-  description: Mobile API Trips update trip name and description operation
+- name: Expedia Associate User To Trip
+  description: Mobile API User Associate To Trip
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x/
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/expedia/api-trips-tripid-updatetripnamedescription-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/expedia/api-user-associateusertotrip-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/expedia/api-trips-tripid-updatetripnamedescription-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/expedia/api-user-associateusertotrip-post-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
