@@ -15,17 +15,19 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AXA Assistance Search for medical providers
-  description: Search for medical providers
+- name: 'AXA Assistance Retrieve all medical provider specialities available for search
+    (Ex: cardiology, dentist ...)'
+  description: 'Retrieve all medical provider specialities available for search (Ex:
+    cardiology, dentist ...)'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/axa-assistance/ondemand-v1-medical-providers-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/axa-assistance/ondemand-v1-medical-providers-specialities-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/axa-assistance/ondemand-v1-medical-providers-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/axa-assistance/ondemand-v1-medical-providers-specialities-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/axa-assitance
