@@ -28,26 +28,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
-- name: Amadeus Get Points Of Interest Yapq Search Text
-  description: "Amadeus has partnered with YapQ to bring you point of interest APIs
-    with the goal of offering you unbiased ratings of landmarks and tourist attractions.
-    YapQ rates these points according to their interest on social media and provides
-    Wikipedia content and Geonames ID in a given city. \nYapQ's service indexes millions
-    of points around the world, and provides content in 12 different languages. This
-    allows you to ensure you catch the must-see sights in a YapQ supported city.\nEach
-    point of interest comes with links to content, grading information, location and
-    directions to help make discovering your destination easy and fun.\nThis service
-    is still under active development, and the response format may change without
-    warning. We'd be interested in your feedback - send us an email."
+- name: Amadeus Get Trains Extensive Search
+  description: "This API allows you to search trains availability and prices for a
+    single day or date range. It's based on our Rail Instant Search technology, providing
+    you with immediate results from our rail search cache.\n\nThis API has content
+    from SNCF (French trains).\n            \nThe content is also restricted to single-leg
+    trips - where a single train takes you directly from the origin to the destination."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/points-of-interest-yapq-search-text-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-extensive-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/points-of-interest-yapq-search-text-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-extensive-search-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
