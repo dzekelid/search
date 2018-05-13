@@ -34,7 +34,46 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/startups-get.md
+- name: AngelList Search AngelList
+  description: Search AngelList.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  humanURL: http://angel.co
+  baseURL: https://api.angel.co//1/
+  tags: Search
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/search-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/search-get-postman.md
 x-common:
+- type: x-blog
+  url: https://blog.angel.co
+- type: x-base-url
+  url: http://api.angel.co/
+- type: x-blog
+  url: http://blog.angel.co
+- type: x-blog-rss
+  url: http://blog.angel.co/rss
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/angellist
+- type: x-developer
+  url: https://angel.co/api
+- type: x-github
+  url: https://github.com/angellist
+- type: x-postman-collection
+  url: http://theapistack.com/data/angellist/angellist-postman-collection.json
+- type: x-privacy
+  url: https://angel.co/privacy
+- type: x-sdksio
+  url: https://sdks.io/SDK/View/angellist-startup-api
+- type: x-support
+  url: https://angel.co/help
+- type: x-terms-of-service
+  url: https://angel.co/terms
+- type: x-twitter
+  url: https://twitter.com/angellist
+- type: x-website
+  url: http://angel.co
 - type: x-blog
   url: https://blog.angel.co
 - type: x-base-url
