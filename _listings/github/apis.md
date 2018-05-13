@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/github/search-users-get.md
-- name: Github Get Search Repositories
-  description: Search repositories.
+- name: Github Get Search Users
+  description: Search users.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/github/search-repositories-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/github/search-users-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/github/search-repositories-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/github/search-users-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
