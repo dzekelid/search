@@ -28,23 +28,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
-- name: Amadeus Get Trains Schedule Search
-  description: |-
-    This API allows you to find all the possible destinations in the Rail Instant Search cache (used by Extensive Search above) from a given origin station on a given day. You can use this to help build network maps, journey planners or provide inspiration for rail travel.
-
-    This API has continuous content from SNCF.
-    All the options returned are single-leg trips - where a single train takes you directly from the origin to the destination. In general, only departure dates up to 90 days in the future are supported
-
-    Currently agglomeration stations are not supported
+- name: Amadeus Get Travel Intelligence Top Searches
+  description: "The Top Flight Search allows you to find number of estimated searches
+    from an origin, optionally a destination, within a time period when travelers
+    are performing the searches. \nThe search is based on queries performed from within
+    a country (also refers to as market) and returns up to 50 results, ordered by
+    popularity, showing number of searches for most searched destination with its
+    previous year comparison. This search also shows patterns on how travelers are
+    searching for flights, revealing where, when and for how long they\u2019re planning
+    to travel. See\nTrip Durations(How long are the trips planned for?) and\n Advance
+    Search Period (How long before departures do travelers start searching for their
+    trips?)\n\nThis estimated search is based on Amadeus' Travel Intelligence Engine,
+    a high performance scalable cloud-based platform, born in the age of Big Data
+    and purposely built for the industry bringing total flexibility and speed to business
+    intelligence for travel. Please see amadeus.com/travelintelligence for more information."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-schedule-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-schedule-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
