@@ -1,11 +1,17 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Flights Low Fare Search
+  description: "This is the low fare search engine Amadeus uses to retrieve the best
+    price for flights, based on our latest Master Pricer Travel Board technology.
+    This document describes how to make a low fare search and how to handle the returned
+    messages.\n\nThe message is composed of multiple results for given request. A
+    result is defined by a unique combination of price, tax, passenger type, fare
+    type, cabin, and availability for each requested segment. \n\nA result is then
+    composed of single or multiple itineraries. Each itinerary is composed of an outbound
+    leg, and, if a return date was specified, an inbound leg. Each leg is composed
+    of a list of one or more flights, that the traveller will be required to take
+    in order to get from the origin airport to the destination airport."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
