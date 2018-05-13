@@ -23,18 +23,17 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter Get Saved Search
-  description: Retrieve the information for the saved search represented by the given
-    id
+- name: Twitter Create Saved Search
+  description: Create a new saved search for the authenticated user
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-show-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-create-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-show-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-create-post-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
