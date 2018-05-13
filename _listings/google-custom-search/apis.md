@@ -26,7 +26,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/google-custom-search/v1-get.md
+- name: Google Custom Search JSON/Atom API Search
+  description: Returns metadata about the search performed, metadata about the custom
+    search engine used for the search, and the search results.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-custom-search.png
+  humanURL: ""
+  baseURL: http:://www.googleapis.com//customsearch
+  tags: Search
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/google-custom-search/v1-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/google-custom-search/v1-get-postman.md
 x-common:
+- type: x-blog
+  url: https://customsearch.googleblog.com/
+- type: x-blog-rss
+  url: http://googlecustomsearch.blogspot.in/atom.xml
+- type: x-code
+  url: https://developers.google.com/custom-search/json-api/v1/libraries
+- type: x-twitter
+  url: https://twitter.com/googlecse
 - type: x-blog
   url: https://customsearch.googleblog.com/
 - type: x-blog-rss
