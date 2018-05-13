@@ -28,7 +28,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/blogger/blogs-blogid-posts-search-get.md
+- name: Blogger API Search Blog Post
+  description: Search for a post.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: http:://www.googleapis.com//blogger/v3
+  tags: Search
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/blogger/blogs-blogid-posts-search-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/blogger/blogs-blogid-posts-search-get-postman.md
 x-common:
+- type: x-blog
+  url: https://blogger.googleblog.com/
+- type: x-website
+  url: https://www.blogger.com
+- type: x-blog-rss
+  url: http://buzz.blogger.com/atom.xml
+- type: x-developer
+  url: https://developers.google.com/blogger/
+- type: x-twitter
+  url: https://twitter.com/Blogger
+- type: x-getting-started
+  url: https://developers.google.com/blogger/docs/3.0/getting_started
 - type: x-blog
   url: https://blogger.googleblog.com/
 - type: x-website
