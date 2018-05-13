@@ -28,26 +28,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
-- name: Amadeus Get Flights Low Fare Search
-  description: "This is the low fare search engine Amadeus uses to retrieve the best
-    price for flights, based on our latest Master Pricer Travel Board technology.
-    This document describes how to make a low fare search and how to handle the returned
-    messages.\n\nThe message is composed of multiple results for given request. A
-    result is defined by a unique combination of price, tax, passenger type, fare
-    type, cabin, and availability for each requested segment. \n\nA result is then
-    composed of single or multiple itineraries. Each itinerary is composed of an outbound
-    leg, and, if a return date was specified, an inbound leg. Each leg is composed
-    of a list of one or more flights, that the traveller will be required to take
-    in order to get from the origin airport to the destination airport."
+- name: Amadeus Get Hotels Search Airport
+  description: |-
+    A fast Hotel shopping API to see which hotels are available in a given area, on a given day and displays their lowest prices. With this API you can find out the price of the cheapest daily rate for all hotels near a given airport.
+
+    This API allows you to quickly see the locations of hotels near a given airport, and what prices in that area look like. Note that hotel images are not available to users outside of Amadeus, as we are not licensed to redistribute them. The API is based on our high-speed hotel pricing cache, which is also used to power the Amadeus Hotel Search Engine application. Results are returned very quickly, response times are generally under 2s. Our cache has great global coverage and is constantly refreshed with the latest prices.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/flights-low-fare-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/hotels-search-airport-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/flights-low-fare-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/hotels-search-airport-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
