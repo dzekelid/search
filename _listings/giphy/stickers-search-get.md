@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Giphy
-  description: Natively embed all the best features of the world's largest and most
-    powerful GIF library into your app.
+  title: Giphy Gif API Search Stickers
+  description: Replicates the functionality and requirements of the classic GIPHY
+    search, but returns animated stickers rather than GIFs.
   termsOfService: https://developers.giphy.com/
   version: v1
 host: api.giphy.com
