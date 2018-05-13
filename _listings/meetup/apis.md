@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-topics-get.md
-- name: Meetup Find Events
-  description: Returns list of upcoming events based on location
+- name: Meetup Find Upcoming Events
+  description: Returns a list of upcoming events
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-events-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-upcoming-events-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
