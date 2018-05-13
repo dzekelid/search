@@ -29,6 +29,16 @@ x-common:
   url: https://twitter.com/duckduckgo
 - type: x-website
   url: http://duckduckgo.com
+- type: x-base
+  url: http://api.duckduckgo.com/
+- type: x-developer
+  url: https://duckduckgo.com/api
+- type: x-github
+  url: https://github.com/duckduckgo
+- type: x-twitter
+  url: https://twitter.com/duckduckgo
+- type: x-website
+  url: http://duckduckgo.com
 include: []
 maintainers:
 - FN: Kin Lane
