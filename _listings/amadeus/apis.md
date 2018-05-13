@@ -28,26 +28,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
-- name: Amadeus Get Points Of Interest Yapq Search Circle
+- name: Amadeus Get Points Of Interest Yapq Search Text
   description: "Amadeus has partnered with YapQ to bring you point of interest APIs
     with the goal of offering you unbiased ratings of landmarks and tourist attractions.
-    YapQ rates places according to their interest on social media and provides Wikipedia
-    content and Geonames ID at a given location. \nYapQ's service indexes millions
+    YapQ rates these points according to their interest on social media and provides
+    Wikipedia content and Geonames ID in a given city. \nYapQ's service indexes millions
     of points around the world, and provides content in 12 different languages. This
-    allows you to ensure you catch the must-see sights at a specific YapQ supported
-    location.\nEach point of interest comes with links to content, grading information,
-    location and directions to help make discovering your destination easy and fun.\nThis
-    service is still under active development, and the response format may change
-    without warning. We'd be interested in your feedback - send us an email."
+    allows you to ensure you catch the must-see sights in a YapQ supported city.\nEach
+    point of interest comes with links to content, grading information, location and
+    directions to help make discovering your destination easy and fun.\nThis service
+    is still under active development, and the response format may change without
+    warning. We'd be interested in your feedback - send us an email."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/points-of-interest-yapq-search-circle-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/points-of-interest-yapq-search-text-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/points-of-interest-yapq-search-circle-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/points-of-interest-yapq-search-text-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
