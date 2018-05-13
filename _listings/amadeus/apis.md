@@ -28,26 +28,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
-- name: Amadeus Get Flights Affiliate Search
-  description: "The Flight Affiliate Search API combines Amadeus' flight search technology
-    with Travel Audience's Connect API partners to provide a unique flight search,
-    where all results come with deep-links to book the flight at a partner's website.
-    The API will let you easily provide the traveler with a path to book flights from
-    your application.\nTravel Audience Connect partners include\n\n  CityJet, Air
-    Europa and TAP in Western Europe,\n  Ural Airlines in Russia, \n  Avianca Brazil
-    \ and\n  JAL in East Asia\n\n\nOnly Travel Audience Connect partner airlines are
-    searched. For an up-to-date list of routes, see the route maps on each partners
-    respective websites above. You can earn commission using the deep links provided
-    in the search results if you sign up for an account at connect.travelaudience.com."
+- name: Amadeus Get Flights Extensive Search
+  description: |-
+    The Extensive Flight Search allows you to find the prices of one-way or return flights between two airports over a large number of dates, and for a large variety of stay durations. The search doesn't return exact itineraries, but rather tells you the best price for a flight on a given day, for a stay of a given duration.
+
+    The search is based on our Extreme Search platform, which continually caches a large number of flight search results from a list of origin cities to a variety of destinations. Since it's a cached search, the response time is fast, but not all origin airports are available. Here is a list of the currently supported origin-destination IATA location pairs. We try to keep this list as fresh as possible for you, but be aware that it may not always be exactly up-to-date and it can change without warning.
+
+    That said, a price graph like this provides a powerful bargin shopping tool - allowing travelers with flexible itineraries to identify days on which they can get the cheapest flights to their destinations.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/flights-affiliate-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/flights-extensive-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/flights-affiliate-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/flights-extensive-search-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
