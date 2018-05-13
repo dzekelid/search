@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Giphy
-  description: Natively embed all the best features of the world's largest and most
-    powerful GIF library into your app.
+  title: Giphy Gif API Search GIFs
+  description: Search all GIPHY GIFs for a word or phrase. Punctuation will be stripped
+    and ignored.  Use a plus or url encode for phrases. Example paul+rudd, ryan+gosling
+    or american+psycho.
   termsOfService: https://developers.giphy.com/
   version: v1
 host: api.giphy.com
