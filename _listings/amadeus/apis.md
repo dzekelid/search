@@ -28,20 +28,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
-- name: Amadeus Get Hotels Search Airport
-  description: |-
-    A fast Hotel shopping API to see which hotels are available in a given area, on a given day and displays their lowest prices. With this API you can find out the price of the cheapest daily rate for all hotels near a given airport.
-
-    This API allows you to quickly see the locations of hotels near a given airport, and what prices in that area look like. Note that hotel images are not available to users outside of Amadeus, as we are not licensed to redistribute them. The API is based on our high-speed hotel pricing cache, which is also used to power the Amadeus Hotel Search Engine application. Results are returned very quickly, response times are generally under 2s. Our cache has great global coverage and is constantly refreshed with the latest prices.
+- name: Amadeus Get Hotels Search Box
+  description: "A fast Hotel shopping API to see which hotels are available in a given
+    area, on a given day and displays their lowest prices. With this API you can find
+    out the price of the cheapest daily rate for all hotels within a specified geographical
+    region.\n\nThis API allows you to quickly see the hotel locations in a region,
+    and what prices in that area look like,  as well as the check-in and check-out
+    dates, and get a list of up to 140 properties (names, codes, image, amenities)
+    with their locations and rates. Optional parameters such as currency and maximum
+    rates, amenities or hotel chain codes are also available and can be used to narrow
+    down the results. More optional parameters such as show_sold_out & rooms can be
+    used to show sold out rooms and all available rooms.\n            \nThe API is
+    based on our high-speed hotel pricing cache, which is also used to power the Amadeus
+    Hotel Search Engine application. Results are returned very quickly, response times
+    are generally under 2s. Our cache has great global coverage and is constantly
+    refreshed with the latest prices."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/hotels-search-airport-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/hotels-search-box-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/hotels-search-airport-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/hotels-search-box-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
