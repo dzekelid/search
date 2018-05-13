@@ -38,6 +38,25 @@ x-common:
   url: https://aws.amazon.com/cloudsearch/
 - type: x-whats-new
   url: https://aws.amazon.com/cloudsearch/whats-new/
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cloudsearch/latest/developerguide/cloudsearch-command-line-tools.html
+- type: x-console
+  url: https://console.aws.amazon.com/cloudsearch
+- type: x-documentation
+  url: http://docs.aws.amazon.com/cloudsearch/latest/developerguide/api-ref.html *
+    hard to find
+- type: x-faq
+  url: https://aws.amazon.com/cloudsearch/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/cloudsearch/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/cloudsearch/pricing/
+- type: x-testimonials
+  url: https://aws.amazon.com/cloudsearch/testimonials/
+- type: x-website
+  url: https://aws.amazon.com/cloudsearch/
+- type: x-whats-new
+  url: https://aws.amazon.com/cloudsearch/whats-new/
 include: []
 maintainers:
 - FN: Kin Lane
