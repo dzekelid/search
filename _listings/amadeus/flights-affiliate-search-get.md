@@ -1,11 +1,17 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Flights Affiliate Search
+  description: "The Flight Affiliate Search API combines Amadeus' flight search technology
+    with Travel Audience's Connect API partners to provide a unique flight search,
+    where all results come with deep-links to book the flight at a partner's website.
+    The API will let you easily provide the traveler with a path to book flights from
+    your application.\nTravel Audience Connect partners include\n\n  CityJet, Air
+    Europa and TAP in Western Europe,\n  Ural Airlines in Russia, \n  Avianca Brazil
+    \ and\n  JAL in East Asia\n\n\nOnly Travel Audience Connect partner airlines are
+    searched. For an up-to-date list of routes, see the route maps on each partners
+    respective websites above. You can earn commission using the deep links provided
+    in the search results if you sign up for an account at connect.travelaudience.com."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
