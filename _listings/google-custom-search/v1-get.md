@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: CustomSearch
-  description: Lets you search over a website or collection of websites
+  title: Google Custom Search JSON/Atom API Search
+  description: Returns metadata about the search performed, metadata about the custom
+    search engine used for the search, and the search results.
   contact:
     name: Google
     url: https://google.com
