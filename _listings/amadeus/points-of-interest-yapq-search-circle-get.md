@@ -1,11 +1,17 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Points Of Interest Yapq Search Circle
+  description: "Amadeus has partnered with YapQ to bring you point of interest APIs
+    with the goal of offering you unbiased ratings of landmarks and tourist attractions.
+    YapQ rates places according to their interest on social media and provides Wikipedia
+    content and Geonames ID at a given location. \nYapQ's service indexes millions
+    of points around the world, and provides content in 12 different languages. This
+    allows you to ensure you catch the must-see sights at a specific YapQ supported
+    location.\nEach point of interest comes with links to content, grading information,
+    location and directions to help make discovering your destination easy and fun.\nThis
+    service is still under active development, and the response format may change
+    without warning. We'd be interested in your feedback - send us an email."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
