@@ -1,11 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Find Groups
+  description: Text, location, category and friend-based group searches
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -92,16 +89,16 @@ paths:
 definitions: []
 x-collection-name: Meetup
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.56"
+  polling_size_download_average: "240168.02"
+  streaming_total_time_average: "0.29"
+  streaming_size_download_average: "120190.16"
+  change_yes: "25"
+  change_no: "2255"
+  time_percentage: "48"
+  size_percentage: "50"
+  change_percentage: "1"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
