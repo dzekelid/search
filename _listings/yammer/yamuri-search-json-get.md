@@ -1,8 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Search Request
+  description: "The search resource will return a list of messages, users, topics
+    and groups that match the user\u2019s search query.\n\n\n\nsearch - The search
+    query.\n\npage - Only 20 results of each type will be returned for each page,
+    but a total count is returned with each query. page=1 (the default) will return
+    items 1-20, page=2 will return items 21-30, etc.\n\nnum_per_page - This allows
+    you to limit the number of results of each type per page, up to a maximum of 20,
+    the default value."
   version: 1.0.0
 host: example.com
 basePath: /
