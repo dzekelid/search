@@ -19,17 +19,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BetterDoctor Doctor search
-  description: Doctor search
+- name: BetterDoctor Practice Search
+  description: Results are provider service locations, commonly referred as practices
+    or doctor's offices.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg
   humanURL: https://developer.betterdoctor.com
   baseURL: https://api.betterdoctor.com//2016-03-01
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/doctors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/practices-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/doctors-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/practices-get-postman.md
 x-common:
 - type: x-blog
   url: https://betterdoctor.com/health/
