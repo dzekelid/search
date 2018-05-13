@@ -40,7 +40,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/salesforce/version-search-get.md
+- name: SalesForce Get Version Search
+  description: Executes the specified SOSL search. The search string must be URL-encoded.
+  image: https://avatars.githubusercontent.com/u/453694?v=3
+  humanURL: https://developer.salesforce.com/
+  baseURL: https://na14.salesforce.com//services/data
+  tags: Search
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/salesforce/version-search-get.md
 x-common:
+- type: x-base
+  url: https://na1.salesforce.com
+- type: x-blog
+  url: https://developer.salesforce.com/blogs/
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/SforceBlog
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/salesforce
+- type: x-github
+  url: https://github.com/salesforce
+- type: x-partners
+  url: https://partners.salesforce.com/
+- type: x-twitter
+  url: https://twitter.com/salesforcedevs
+- type: x-website
+  url: https://developer.salesforce.com/
 - type: x-base
   url: https://na1.salesforce.com
 - type: x-blog
