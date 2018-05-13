@@ -19,24 +19,24 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BetterDoctor Record search
-  description: "The endpoint can be used to identify providers with validation data.
-    The search supports BetterDoctor unique provider identifier, National Provider
-    Identifier (NPI) or reference uid based provider lookups. BetterDoctor identifiers
-    and NPIs for doctors and practices can be discovered using BetterDoctor API\u2019s
-    search functionalities. <br><h4 style='margin-bottom: 0px !important;'> Return
-    Headers </h4> <div>Last-Modified: Timestamp of the last validation made over the
-    matching validations. The value can be used to query changes in the validation
-    status for the provider using since parameter in collaboration with HEAD method.</div>"
+- name: BetterDoctor Check if new records exists
+  description: 'The endpoint can be used to identify providers with validation data,
+    and discover changes. It providers search functionalities like its GET method
+    alternative, but does not return any validation data. Instead of the data itself,
+    it returns 200 OK if matching validation documents based on the given query are
+    found. And it returns 304 if no validation documents are found after the timestamp
+    given using If-Modified-Since HTTP header or since parameter. <br><h4 style=''margin-bottom:
+    0px !important;''> Return Headers </h4> <div>Last-Modified: Timestamp of the last
+    validation made over the matching validations. </div>'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg
   humanURL: https://developer.betterdoctor.com
   baseURL: https://api.betterdoctor.com//2016-03-01
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/validations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/validations-head.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/validations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/validations-head-postman.md
 x-common:
 - type: x-blog
   url: https://betterdoctor.com/health/
