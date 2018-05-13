@@ -27,20 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/youtube/search-parameters.md
-- name: Youtube Get Search
-  description: Returns a collection of search results that match the query parameters
-    specified in the API request. By default, a search result set identifies matching
-    video, channel, and playlist resources, but you can also configure queries to
-    only retrieve a specific type of resource.
+- name: Youtube Parameters Search
+  description: Parameters search
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/youtube/search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/youtube/search-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/youtube/search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/youtube/search-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
