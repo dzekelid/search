@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Salesforce
-  description: Explore the beta Salesforce REST API to integrate CRM.
+  title: SalesForce Get Version Search
+  description: Executes the specified SOSL search. The search string must be URL-encoded.
   version: 1.0.0
 host: na14.salesforce.com
 basePath: /services/data
