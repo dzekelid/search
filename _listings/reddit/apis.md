@@ -33,7 +33,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/reddit/subreddits-search-get.md
-- name: Reddit Get Search Reddit Names
+- name: Reddit Add Search Reddit Names
   description: List subreddit names that begin with a query string.
   image: http://www.redditstatic.com/about/assets/reddit-logo.png
   humanURL: http://www.reddit.com
@@ -41,7 +41,7 @@ apis:
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/reddit/api-search-reddit-names-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/reddit/search-reddit-names-post.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
