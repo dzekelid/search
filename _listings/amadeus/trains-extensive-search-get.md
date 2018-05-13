@@ -1,11 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Trains Extensive Search
+  description: "This API allows you to search trains availability and prices for a
+    single day or date range. It's based on our Rail Instant Search technology, providing
+    you with immediate results from our rail search cache.\n\nThis API has content
+    from SNCF (French trains).\n            \nThe content is also restricted to single-leg
+    trips - where a single train takes you directly from the origin to the destination."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
