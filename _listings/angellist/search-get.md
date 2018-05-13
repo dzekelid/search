@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: AngelList
-  description: The AngelList API provides developers with a RESTful interface to the
-    AngelList data set. For more information, read the OAuth FAQ.
+  title: AngelList Search AngelList
+  description: Search AngelList.
   termsOfService: https://angel.co/terms
   contact:
     name: AngelList
