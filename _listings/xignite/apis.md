@@ -50,11 +50,11 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/xignite/searchrates-post.md
-- name: Xignite Interbanks Search Rates
+- name: Xignite Money Markets Search Rates
   description: Search rate names and description
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
   tags: Search
   properties:
   - type: x-openapi-spec
