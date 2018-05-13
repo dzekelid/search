@@ -1,12 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: GitHub
-  description: GitHub is the best place to share code with friends, co-workers, classmates,
-    and complete strangers. Over 24 million people use GitHub to build amazing things
-    together across 67 million repositories. With the collaborative features of GitHub.com
-    and GitHub Business, it has never been easier for individuals and teams to write
-    faster, better code.
+  title: Github Get Search Users
+  description: Search users.
   termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
   version: 1.0.0
 host: api.github.com
@@ -28,6 +24,9 @@ paths:
         name: Accept
         description: Is used to set specified media type
       - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: query
         name: order
         description: The sort field
       - in: query
@@ -36,17 +35,6 @@ paths:
       - in: query
         name: sort
         description: If not provided, results are sorted by best match
-      - in: header
-        name: X-GitHub-Media-Type
-        description: You can check the current version of media type in responses
-      - in: header
-        name: X-GitHub-Request-Id
-      - in: header
-        name: X-RateLimit-Limit
-      - in: header
-        name: X-RateLimit-Remaining
-      - in: header
-        name: X-RateLimit-Reset
       responses:
         200:
           description: OK
@@ -1659,16 +1647,16 @@ definitions:
         type: get
 x-collection-name: GitHub
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.18"
+  polling_size_download_average: "26688.22"
+  streaming_total_time_average: "0.1"
+  streaming_size_download_average: "13344.47"
+  change_yes: "2150"
+  change_no: "185"
+  time_percentage: "43"
+  size_percentage: "50"
+  change_percentage: "92"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
