@@ -28,19 +28,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/giphy/stickers-search-get.md
-- name: Giphy Gif API Search GIFs
-  description: Search all GIPHY GIFs for a word or phrase. Punctuation will be stripped
-    and ignored.  Use a plus or url encode for phrases. Example paul+rudd, ryan+gosling
-    or american+psycho.
+- name: Giphy Gif API Search Stickers
+  description: Replicates the functionality and requirements of the classic GIPHY
+    search, but returns animated stickers rather than GIFs.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png
   humanURL: https://giphy.com
   baseURL: http://api.giphy.com//v1
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/giphy/gifs-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/giphy/stickers-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/giphy/gifs-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/giphy/stickers-search-get-postman.md
 x-common:
 - type: x-blog
   url: http://blog.giphy.com/
