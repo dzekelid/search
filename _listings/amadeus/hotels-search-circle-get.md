@@ -1,11 +1,21 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Hotels Search Circle
+  description: "A fast Hotel shopping API to see which hotels are available in a given
+    area, on a given day and displays their lowest prices. With this API you can find
+    out the price of the cheapest daily rate for all hotels within a specified radius
+    of a point.\n\nThis API allows you to quickly see the hotel locations in a region,
+    and what prices in that area look like,  as well as the check-in and check-out
+    dates, and get list of up to 140 properties (names, codes, image, amenities) with
+    their locations and rates. Optional parameters such as currency and maximum rates,
+    amenities or hotel chain codes are also available and can be used to narrow down
+    the results. More optional parameters such as show_sold_out & rooms can be used
+    to show sold out rooms and all available rooms. \n\nThe API is based on our high-speed
+    hotel pricing cache, which is also used to power the Amadeus Hotel Search Engine
+    application. Results are returned very quickly, response times are generally under
+    2s. Our cache has great global coverage and is constantly refreshed with the latest
+    prices."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
