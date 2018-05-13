@@ -28,21 +28,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/travel-intelligence-top-searches-get.md
-- name: Amadeus Get Trains Extensive Search
-  description: "This API allows you to search trains availability and prices for a
-    single day or date range. It's based on our Rail Instant Search technology, providing
-    you with immediate results from our rail search cache.\n\nThis API has content
-    from SNCF (French trains).\n            \nThe content is also restricted to single-leg
-    trips - where a single train takes you directly from the origin to the destination."
+- name: Amadeus Get Trains Schedule Search
+  description: |-
+    This API allows you to find all the possible destinations in the Rail Instant Search cache (used by Extensive Search above) from a given origin station on a given day. You can use this to help build network maps, journey planners or provide inspiration for rail travel.
+
+    This API has continuous content from SNCF.
+    All the options returned are single-leg trips - where a single train takes you directly from the origin to the destination. In general, only departure dates up to 90 days in the future are supported
+
+    Currently agglomeration stations are not supported
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-extensive-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-schedule-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-extensive-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/amadeus/trains-schedule-search-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
