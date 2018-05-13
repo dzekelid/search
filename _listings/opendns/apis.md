@@ -31,6 +31,18 @@ x-common:
   url: https://twitter.com/OpenDNS
 - type: x-website
   url: https://www.opendns.com/
+- type: x-blog
+  url: https://blog.opendns.com/
+- type: x-blog-rss
+  url: https://blog.opendns.com/feed/
+- type: x-developer
+  url: https://docs.opendns.com/
+- type: x-github
+  url: https://github.com/opendns
+- type: x-twitter
+  url: https://twitter.com/OpenDNS
+- type: x-website
+  url: https://www.opendns.com/
 include: []
 maintainers:
 - FN: Kin Lane
