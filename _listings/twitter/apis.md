@@ -23,17 +23,17 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter Create Saved Search
-  description: Create a new saved search for the authenticated user
+- name: Twitter Destroy Saved Search
+  description: Destroy a saved search for the authenticating user
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-create-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-destroy-id-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-create-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/twitter/saved-searches-destroy-id-post-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
