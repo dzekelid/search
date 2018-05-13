@@ -33,7 +33,50 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/reddit/subreddits-search-get.md
+- name: Reddit Get Search Reddit Names
+  description: List subreddit names that begin with a query string.
+  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Search
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/reddit/api-search-reddit-names-json-get.md
 x-common:
+- type: x-authentication
+  url: https://github.com/reddit/reddit/wiki/OAuth2
+- type: x-base
+  url: https://www.reddit.com/
+- type: x-best-practices
+  url: https://github.com/reddit/reddit/wiki/API
+- type: x-blog
+  url: http://www.redditblog.com/
+- type: x-blog-rss
+  url: https://www.reddit.com/r/datasets/.rss
+- type: x-blog-rss
+  url: http://www.redditblog.com/feeds/posts/default?alt=rss
+- type: x-code-libraries
+  url: https://github.com/reddit/reddit/wiki/API-Wrappers
+- type: x-console
+  url: https://apigee.com/console/reddit
+- type: x-developer
+  url: http://www.reddit.com/dev/api
+- type: x-github
+  url: https://github.com/reddit
+- type: x-privacy
+  url: https://www.reddit.com/help/privacypolicy
+- type: x-security
+  url: https://www.reddit.com/help/privacypolicy#section_security
+- type: x-support
+  url: https://www.reddit.com/contact/
+- type: x-terms-of-service
+  url: http://www.reddit.com/help/useragreement
+- type: x-transparency-report
+  url: https://www.reddit.com/wiki/transparency
+- type: x-twitter
+  url: https://twitter.com/reddit
+- type: x-website
+  url: http://www.reddit.com
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
 - type: x-base
