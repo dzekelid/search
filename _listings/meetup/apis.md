@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-topics-get.md
-- name: Meetup Find locations
-  description: Provides a query interface for finding known locations
+- name: Meetup Topic Categories
+  description: Returns a list high level topic categories
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-locations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-topic-categories-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
