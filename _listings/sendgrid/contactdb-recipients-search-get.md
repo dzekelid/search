@@ -1,11 +1,20 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Get Contactdb Recipients Search
+  description: |-
+    **This endpoint allows you to perform a search on all of your Marketing Campaigns recipients.**
+
+    field_name:
+
+    * is a variable that is substituted for your actual custom field name from your recipient.
+    * Text fields must be url-encoded. Date fields are searchable only by unix timestamp (e.g. 2/2/2015 becomes 1422835200)
+    * If field_name is a 'reserved' date field, such as created_at or updated_at, the system will internally convert
+    your epoch time to a date range encompassing the entire day. For example, an epoch time of 1422835600 converts to
+    Mon, 02 Feb 2015 00:06:40 GMT, but internally the system will search from Mon, 02 Feb 2015 00:00:00 GMT through
+    Mon, 02 Feb 2015 23:59:59 GMT.
+
+    The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
