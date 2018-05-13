@@ -19,18 +19,21 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BetterDoctor Practice Search
-  description: Results are provider service locations, commonly referred as practices
-    or doctor's offices.
+- name: BetterDoctor Add a new record
+  description: "Creates validation document using the request body, and returns the
+    document created with unique identifier in Location header for reference. This
+    is how validation data is submitted to BetterDoctor for addition to the API. The
+    posted document must conform to BetterDoctor\u2019s JSON schema for validation
+    objects, see included model specification for more information. <br><h4 style='margin-bottom:
+    0px !important;'> Return Headers </h4> <div>Location: The uid of the created document.
+    This can be used to access the document again without executing a search.</div>"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg
   humanURL: https://developer.betterdoctor.com
   baseURL: https://api.betterdoctor.com//2016-03-01
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/practices-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/practices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/betterdoctor/validations-post.md
 x-common:
 - type: x-blog
   url: https://betterdoctor.com/health/
