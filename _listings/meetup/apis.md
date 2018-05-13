@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-topics-get.md
-- name: Meetup Find Venues
-  description: Returns list of venues based on location
+- name: Meetup Group Profile search
+  description: |-
+    Find group member profiles by name.
+    Member's who very recently joined or left the group may not be immediately searchable
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-venues-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/meetup/find-urlname-members-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
