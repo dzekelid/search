@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/startups-get.md
-- name: AngelList Search Slugs
-  description: Search by slug
+- name: AngelList Search Startups
+  description: Search Startups
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Search
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/search-slugs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/startups-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/search-slugs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/angellist/startups-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
