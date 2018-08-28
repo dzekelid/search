@@ -1,33 +1,20 @@
 ---
 name: eBay
+x-slug: ebay
 description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
   goods, digital cameras, baby items, coupons, and everything else on eBay, the worlds
-  online marketplace.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  online marketplace
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack
-- Partners
-- Commerce
-- Auction
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/apis.yaml
+x-alexaRank: "42"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Ebay
-  description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
-    goods, digital cameras, baby items, coupons, and everything else on eBay, the
-    worlds online marketplace
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
-  humanURL: ""
-  baseURL: https://api.ebay.com//
-  tags: Search
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/item-summary-search-get.md
-- name: Ebay Get Item Summary Search
+- name: Ebay - Get Item Summary Search
+  x-api-slug: item-summarysearch-get
   description: 'This call performs an advanced search for items. You can search by
     keyword, category, eBay product Id (EPID), or gtin. Or a combination of these.
     Encoding Parameters and Headers As with all query parameter values, the fields
@@ -79,36 +66,38 @@ apis:
     For details see, Request headers in the Buy APIs Overview. Restrictions For a
     list of supported sites and other restrictions, see API Restrictions. Limitation:
     This call can return a maximum of 10,000 items.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com//
-  tags: Search
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/item-summary-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/item-summary-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/item-summarysearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/ebay/item-summarysearch-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://easycron.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://ebay.stack.network
 - type: x-blog
   url: https://go.developer.ebay.com/dev-program-blog
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/ebay
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/leah
 - type: x-developer
   url: https://go.developer.ebay.com/
+- type: x-email
+  url: spam@ebay.com
+- type: x-email
+  url: spoof@ebay.com
 - type: x-github
   url: https://github.com/eBayDeveloper
 - type: x-twitter
-  url: https://twitter.com/ebaydev
-- type: x-website
-  url: https://ebay.com
-- type: x-blog
-  url: https://go.developer.ebay.com/dev-program-blog
-- type: x-crunchbase
-  url: http://www.crunchbase.com/company/ebay
-- type: x-developer
-  url: https://go.developer.ebay.com/
-- type: x-github
-  url: https://github.com/eBayDeveloper
+  url: https://twitter.com/eBay
 - type: x-twitter
   url: https://twitter.com/ebaydev
 - type: x-website

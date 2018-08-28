@@ -1,24 +1,15 @@
 ---
 name: Elasticsearch
-description: Elasticsearch is on a mission to organize data and make it easily accessible.
-  The company delivers the worlds the most advanced open source search and analytics
-  engine available and make real-time data exploration available to anyone. By having
-  a laser focus on achieving the best user experience imaginable, Elasticsearch has
-  become one of the most popular and rapidly growing open source solutions in the
-  market. Today, Elasticsearch is used by thousands of enterprises in virtually every
-  industry. We take good care of our customers and users, providing production support,
-  development support and training worldwide.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1910_logo.jpg
-x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Search
-- Netherlands
-- Deployment
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/elasticsearch/apis.yaml
+x-slug: elasticsearch
+description: Were the creators of Elasticsearch, Kibana, Beats, and Logstash -- the
+  Elastic Stack. Securely and reliably search, analyze, and visualize your data.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1910-elasticsearch.jpg
+x-kinRank: "9"
+x-alexaRank: "6768"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/elasticsearch/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -28,10 +19,28 @@ x-common:
   url: http://www.elasticsearch.org/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/elasticsearch
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/elasticsearch
+- type: x-email
+  url: sales@elastic.co
+- type: x-email
+  url: info@elastic.co
+- type: x-email
+  url: legal@elastic.co
+- type: x-email
+  url: privacy@elastic.co
+- type: x-email
+  url: partners@elastic.co
+- type: x-email
+  url: pr@elastic.co
+- type: x-email
+  url: elastic-japan@elastic.co
 - type: x-github
   url: https://github.com/elasticsearch
 - type: x-twitter
   url: https://twitter.com/elasticsearch
+- type: x-twitter
+  url: https://twitter.com/elastic
 - type: x-website
   url: http://www.elasticsearch.org/
 include: []

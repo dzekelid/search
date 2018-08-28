@@ -1,27 +1,17 @@
 ---
 name: Bing Maps
+x-slug: bing-maps
 description: The Bing Maps Dev Center provides the tools and resources you need to
   develop with Bing Maps. You can store, access, and keep track of your store locations
   or other spatial data through our online data source management system. You will
   also receive important announcements around your Bing Maps accou
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Bing_Maps_blue20logo.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Translation
-- Translation
-- Traffic
-- Static
-- Stack Network
-- Search engine
-- Search
-- Mapping
-- Geocoding service
-- Geocoding service
-- Directions
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/bing-maps/apis.yaml
+x-alexaRank: "0"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/bing-maps/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

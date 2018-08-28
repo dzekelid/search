@@ -1,31 +1,16 @@
 ---
 name: Wolfram|Alpha
-description: Wolfram Research is building a computational knowledge engine called
-  Wolfram|Alpha for the web to be launched in May 2009. The product will contain data
-  in various nbsp;fields including physical sciences, technology, geography, weather,
-  cooking, business, music, etc. in order to provide answers to questions that users
-  input. Its language interface will accommodate variations in how users frame their
-  questions, such as the use of abbreviations. Wolfram Alpharsquo;s vision is to create
-  a system which can do for formal knowledge (heuristics, algorithms, rules, methods,
-  theorems, etc.) what search engines like Google have done for informal knowledge,
-  such as text and documents.
-image: http://pbs.twimg.com/profile_images/489803647153217537/NH6ZQxzT_normal.png
+x-slug: wolframalpha
+description: Compute answers using Wolframs breakthrough technology & knowledgebase,
+  relied on by millions of students & professionals. For math, science, nutrition,
+  history, geography, engineering, mathematics, linguistics, sports, finance, music...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/278-wolfram|alpha.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Semantic
-- Search
-- Mathmatical
-- Mathematics
-- Machine Learning
-- Linguistics
-- Language
-- Business Intelligence
-- AI
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/wolframalpha/apis.yaml
+x-alexaRank: "1563"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/wolframalpha/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -37,6 +22,8 @@ x-common:
   url: http://blog.wolframalpha.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/wolfram-alpha
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/wolfram-alpha
 - type: x-developer
   url: http://products.wolframalpha.com/developers/
 - type: x-twitter

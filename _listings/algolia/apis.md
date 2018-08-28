@@ -1,22 +1,15 @@
 ---
 name: Algolia
-description: Algolia provides a hosted search API that allows websites and mobile
-  applications to increase user engagement and conversions. Algolia API returns search
-  results in milliseconds, with a search-as-you-type experience for their end users.
-  Algolia offers out-of-the-box support for every language, is typo-tolerant, and
-  allows easy ranking configuration for your data set. Algolia allows any developer
-  to build the search engine they want quickly and easily and serves today more than
-  5B queries per month with 99.99% SLA.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/algolia.png
+x-slug: algolia
+description: A powerful hosted search engine API, Algolia provides product teams with
+  the resources & tools they need to create fast, relevant search.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2140-algolia.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Search
-- API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/algolia/apis.yaml
+x-alexaRank: "28543"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/algolia/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -26,8 +19,24 @@ x-common:
   url: http://feeds.feedburner.com/AlgoliaBlog
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/algolia
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/algolia
 - type: x-documentation
   url: http://www.algolia.com/doc
+- type: x-email
+  url: hey@algolia.com
+- type: x-email
+  url: support@algolia.com
+- type: x-email
+  url: sales@algolia.com
+- type: x-email
+  url: privacy@algolia.com
+- type: x-email
+  url: abuse@algolia.com
+- type: x-email
+  url: contact@algolia.com
+- type: x-email
+  url: legal@Algolia.com
 - type: x-github
   url: https://github.com/algolia
 - type: x-pricing

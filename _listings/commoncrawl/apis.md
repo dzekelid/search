@@ -1,22 +1,14 @@
 ---
 name: CommonCrawl
-description: Common Crawl is a non-profit foundation dedicated to providing an open
-  repository of web crawl data that can be accessed and analyzed by everyone. Common
-  Crawl Foundation is a California 501(c)(3) registered non-profit founded by Gil
-  Elbaz with the goal of democratizing access to web information by producing and
-  maintaining an open repository of web crawl data that is universally accessible
-  and analyzable.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/common-crawl-logo-2.png
+x-slug: commoncrawl
+description: CommonCrawl is a non-profit foundation dedicated to the open web.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1920-commoncrawl.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Search
-- Scraping Web Crawler
-- Scraping
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/commoncrawl/apis.yaml
+x-alexaRank: "457674"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/commoncrawl/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -24,8 +16,14 @@ x-common:
   url: http://commoncrawl.org/blog/
 - type: x-blog-rss
   url: http://commoncrawl.org/feed/
+- type: x-blog
+  url: http://blog.commoncrawl.org
+- type: x-curated-source
+  url: http://blog.commoncrawl.org/2015/04/announcing-the-common-crawl-index/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/common-crawl
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/common-crawl
 - type: x-github
   url: https://github.com/commoncrawl
 - type: x-twitter

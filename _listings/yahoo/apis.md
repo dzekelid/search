@@ -1,24 +1,26 @@
 ---
 name: Yahoo
-description: 'Yahoo! Inc. (Yahoo!), incorporated in 1995, is a global Internet brand.
-  To users, the Company provides owned and operated online properties and services
-  (Yahoo! Properties, Offerings, or Owned and Operated sites). '
-image: http://pbs.twimg.com/profile_images/615626753373945856/lCKj53DE_normal.jpg
+x-slug: yahoo
+description: News, email and search are just the beginning. Discover more every day.
+  Find your yodel.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Search
-- Photo
-- Location
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/search/master/_listings/yahoo/apis.yaml
+x-alexaRank: "7"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/yahoo/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-website
+  url: http://www.yahoo.com
 - type: x-advertising
   url: https://developer.yahoo.com/everything.html#groupAdvertise
+- type: x-api-gallery
+  url: http://xignite.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://yahoo.stack.network
 - type: x-application-management
   url: https://developer.apps.yahoo.com/
 - type: x-blog
@@ -27,6 +29,8 @@ x-common:
   url: http://yahoodevelopers.tumblr.com/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/yahoo
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/yahoo
 - type: x-forum
   url: https://developer.yahoo.com/forums/
 - type: x-github
@@ -47,6 +51,8 @@ x-common:
   url: https://twitter.com/Yahoo
 - type: x-website
   url: https://developer.yahoo.com/
+- type: x-website
+  url: http://tumblr.com
 include: []
 maintainers:
 - FN: Kin Lane

@@ -1,30 +1,74 @@
 ---
 name: Dropbox
-description: Dropbox is a file hosting service operated by Dropbox, Inc., that offers
-  cloud storage, file synchronization, and client software. Dropbox allows users to
-  create a special folder on each of their computers, which Dropbox then synchronizes
-  so that it appears to be the same folder (with the same contents) regardless of
-  which computer is used to view it. Files placed in this folder also are accessible
-  through a website and mobile phone applications.
-image: https://avatars.githubusercontent.com/u/559357?v=3
+x-slug: dropbox
+description: Dropbox is a modern workspace designed to reduce busywork-so you can
+  focus on the things that matter. Sign in and put your creative energy to work.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Storage
-- Storage
-- Storage
-- Stack
-- Sharing
-- My API Stack
-- Indie EdTech Data Jam
-- File Storage
-- API LIfeycle
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "89"
+tags: Search
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dropbox Core API v1 - Search for files and folders by name.
+  x-api-slug: searchrootpath-get
+  description: |-
+    Returns metadata for all files and folders whose filename contains the given search string as a substring.
+
+    Searches are limited to the folder path and its sub-folder hierarchy provided in the call.
+
+    **Note:** Recent changes may not immediately be reflected in search results due to a short delay in indexing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/dropbox/searchrootpath-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/dropbox/searchrootpath-get-openapi.md
+- name: Dropbox Core API v1 - Search for files and folders by name.
+  x-api-slug: searchrootpath-post
+  description: |-
+    Returns metadata for all files and folders whose filename contains the given search string as a substring.
+
+    Searches are limited to the folder path and its sub-folder hierarchy provided in the call.
+
+    **Note:** Recent changes may not immediately be reflected in search results due to a short delay in indexing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/dropbox/searchrootpath-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/dropbox/searchrootpath-post-openapi.md
+- name: Dropbox - Search
+  x-api-slug: search-get
+  description: /search
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/dropbox/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/search/master/_listings/dropbox/search-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://donorschoose.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dropbox.stack.network
 - type: x-application-management
   url: https://www.dropbox.com/developers/apps
 - type: x-base
@@ -41,8 +85,20 @@ x-common:
   url: https://www.dropbox.com/developers/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/dropbox
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/dropbox
 - type: x-developer
   url: https://www.dropbox.com/developers
+- type: x-email
+  url: privacyshield@dropbox.com
+- type: x-email
+  url: privacy@dropbox.com
+- type: x-email
+  url: contractnotices@dropbox.com
+- type: x-email
+  url: copyright@dropbox.com
+- type: x-email
+  url: dispute-notice@dropbox.com
 - type: x-faq
   url: https://www.dropbox.com/developers/support
 - type: x-forum
@@ -65,6 +121,8 @@ x-common:
   url: https://twitter.com/dropbox
 - type: x-webhooks
   url: https://www.dropbox.com/developers/webhooks/docs
+- type: x-website
+  url: http://dropbox.com
 - type: x-website
   url: https://www.dropbox.com
 include: []
